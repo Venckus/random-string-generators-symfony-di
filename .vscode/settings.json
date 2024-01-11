@@ -1,0 +1,6 @@
+{
+    "phpsab.executablePathCBF": "./vendor/bin/phpcbf",
+    "phpsab.executablePathCS": "./vendor/bin/phpcs",
+    "phpstan.level": "7",
+    "phpstan.path": "./vendor/bin/phpstan",
+}

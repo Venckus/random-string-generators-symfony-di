@@ -1,0 +1,15 @@
+parameters:
+  RandomStringGenerator.length: 16
+  RandomStringGenerator.count: 3
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    # public: false
+  RandomStringGenerator:
+    class: App\Service\String\Generator\RandomStringGenerator
+    autowire: true
+    arguments:
+      $length: '%RandomStringGenerator.length%'
+      $count: '%RandomStringGenerator.count%'
